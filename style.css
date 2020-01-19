@@ -1,0 +1,55 @@
+body{
+    font-family: 'Nunito',sans-serif;
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+input,button{
+    font-family: 'Nunito',sans-serif;
+
+}
+
+.main_div ,.logged_in{
+    width: 20% ;
+    margin-top: 150px;
+    margin: 0px auto;
+    padding:20px ;
+}
+
+.main_div input{
+    display: block;
+    border: 1px solid  #ccc;
+    border-radius:5px ;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main_div input:focus{
+    border: 2px solid #777;
+}
+
+.main_div button ,.logged_in button{
+    background: #5d8ffc;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+
+
+}
+
+.main_div button:hover,.logged_in button:hover{
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+    cursor: pointer;
+}
