@@ -18,6 +18,9 @@ firebase.auth().onAuthStateChanged(function(user) {
 function login(){
     var email_id=document.getElementById("email_field").value;
     var password=document.getElementById("password_field").value;
+
+    document.getElementById("login_div").style.display="initial";
+      document.getElementById("user_div").style.display="none";
     
     
 }
